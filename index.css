@@ -1,0 +1,234 @@
+body {
+    background-color:black;
+    padding: 45px;
+    color: white;
+    background-size: cover;
+        background-image: url(''); /* Khởi tạo với ảnh nền trống */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            
+} 
+
+/*
+.bordered-button {
+      margin-bottom: 20px;
+      
+    border: 0px solid #000; 
+    padding: 10px  40px ; 
+    background-color: #fff; 
+    color: #00ffd9; 
+    border-radius: 100px; 
+    cursor: pointer; 
+    font-family:'Roboto Condensed',cursive ;
+    font-size: 15px;
+    
+}
+*/
+
+.bordered-button:hover {
+    background-color: #eeaeca; 
+    color: #fff; 
+}
+
+
+.avta{
+    border-radius: 100px;
+    
+        border: 3px solid pink; 
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.verified-badge {
+    width: 16px; 
+    height: 16px;
+    background-color: transparent; 
+    padding: 0; 
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+
+
+h3{
+   fofont-family:system-ui; 
+    margin: 10px 0 8px 0;
+    color: white;
+}
+
+
+p{
+    font-family: system-ui;
+    color: white;
+}
+
+
+.button{
+    
+    margin-bottom: 20px;
+    
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family:'Roboto Condensed',cursive ;
+    font-size: 15px;
+    
+  -webkit-box-shadow: 0px 11px 22px -9px #000000;
+  box-shadow: 0px 11px 22px -9px #000000;
+  
+}
+
+
+.button {
+  background-color: white;
+  border: 2px cyan #00ffd9;
+  color: #00ffd9;
+  padding: 10px 20px;
+  transition: background-color 1s, color 1s;
+}
+
+.button:hover {
+  background-color: #eeaeca;
+  color: #fff;
+}
+
+
+
+
+marquee{
+  font-family: 'Pacifico',cursive; 
+    margin: 10px 0 8px 0;
+    color: white;
+    
+}
+
+
+.home-icon {
+            width: 30px; 
+            height: 30px;
+            background-image: url('anh/home.png'); 
+            background-size: cover;
+            opacity: 1; /* Độ mờ của biểu tượng (0.7 là trong xuốt) */
+        border: 2px solid #000; 
+            border-radius: 20%; 
+       background-color: #fff;
+       transition: background-color 1s;
+       display: inline-block;
+       margin-right: 10px; 
+   }
+
+    .home-icon:hover {
+            background-color: cyan;
+        }
+        
+     .menu-icon {
+            width: 29px; 
+            height: 29px;
+            background-image: url('anh/menu.png'); 
+            background-size: cover;
+            opacity: 1; /* Độ mờ của biểu tượng (0.7 là trong xuốt) */
+        border: 2px solid #000; 
+            border-radius: 20%; 
+       background-color: #fff;
+       transition: background-color 1s;
+       display: inline-block;
+        
+   }
+
+    .menu-icon:hover {
+            background-color: cyan;
+        }   
+        
+        
+        
+
+
+  @-webkit-keyframes snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @-webkit-keyframes snowflakes-shake {
+    0%,100% {-webkit-transform:translateX(0);transform:translateX(0)}
+    50% {-webkit-transform:translateX(80px);transform:translateX(80px)}
+  }
+  @keyframes snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @keyframes snowflakes-shake {
+    0%,100%{ transform:translateX(0)}
+    50% {transform:translateX(80px)}
+  }
+  .snowflake {
+    color: #FFF;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration:10s,3s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+  }
+  .snowflake:nth-of-type(0){
+    left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s
+  }
+  .snowflake:nth-of-type(1){
+    left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s
+  }
+  .snowflake:nth-of-type(2){
+    left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s
+  }
+  .snowflake:nth-of-type(3){
+    left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s
+  }
+  .snowflake:nth-of-type(4){
+    left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s
+  }
+  .snowflake:nth-of-type(5){
+    left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s
+  }
+  .snowflake:nth-of-type(6){
+    left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s
+  }
+  .snowflake:nth-of-type(7){
+    left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s
+  }
+  .snowflake:nth-of-type(8){
+    left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s
+  }
+  .snowflake:nth-of-type(9){
+    left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s
+  }
+  .snowflake:nth-of-type(10){
+    left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s
+  }
+  .snowflake:nth-of-type(11){
+    left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
+  }
