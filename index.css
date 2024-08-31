@@ -119,7 +119,7 @@ marquee{
 .home-icon {
             width: 30px; 
             height: 30px;
-            background-image: url('anh/home.png'); 
+            background-image: url('home.png'); 
             background-size: cover;
             opacity: 1; /* Độ mờ của biểu tượng (0.7 là trong xuốt) */
         border: 2px solid #000; 
@@ -137,7 +137,7 @@ marquee{
      .menu-icon {
             width: 29px; 
             height: 29px;
-            background-image: url('anh/menu.png'); 
+            background-image: url('menu.png'); 
             background-size: cover;
             opacity: 1; /* Độ mờ của biểu tượng (0.7 là trong xuốt) */
         border: 2px solid #000; 
