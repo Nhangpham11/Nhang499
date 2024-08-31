@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dev coder Nhàng Phạm</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5468db3c8c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="fvaicon.gif" type="image/gif">
+    <style>
+        
+      body {
+            background-image: url(https://i.ibb.co/DK1sYft/hinh-nen-bau-troi2b252842529.jpg);  
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 125% 125%;
+        }
+.image-container {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      height: 10vh;
+    }
+
+    .image {
+      width: 48%; 
+    }
+    
+  
+    
+    
+    </style>
+  
+</head>
+<body>
+   
+
+
+
+<div class="image-container">
+    <img class="cutesad" src="anh/cutesad.gif" width="50">
+    <img class="cute-sad" src="anh/cute-sad.gif" width="50">
+  </div>
+
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+</div>
+    <center>
+        <img class="avta" src="anh/avta.png" width="100"> 
+        <div class="centered-container">
+        <div class="centered-content">
+        <h3> Dev Nhàng Phạm <img src="anh/tich.png" class='verified-badge'
+        style="30px"></h3>
+        </div>
+        </div>
+        <p style="450px">
+            
+
+            ➣Chào mừng đã đến với web by dev Nhàng Phạm
+        </p>
+        <button class="button" onclick="location.href = 'https://www.facebook.com/profile.php?id=100074315814594 ' "><i class='fab fa-facebook'></i> Facebook</button><br>
+        <button class="button" onclick="location.href = 'https://www.youtube.com/'"><i class="fab fa-youtube"></i> Youtube</button><br>
+        <button class="button" onclick="location.href = 'https://www.tiktok.com/'"><i class="fab fa-tiktok"></i> Tiktok</button>
+       
+   
+        <marquee>Chúc Bạn Một Ngày Vui Vẻ...</marquee>
+        
+
+    
+        
+  <script src="index.js"></script>
+      
+        <div class="home-icon"></div>
+        <div class="menu-icon"></div>
+        
+        
+    
+
+    <script>
+        const homeIcon = document.getElementById("home-icon");
+        homeIcon.addEventListener("click", function() {
+            homeIcon.classList.add("clicked"); 
+            setTimeout(function() {
+                homeIcon.classList.remove("clicked"); 
+            }, 1000); 
+        });
+    </script>
+    
+    
+
+<script>
+    function __dovanhaumedia() {
+        dovanhaumediasound__();
+    }
+    const dovanhaumedia_List = [
+        "//files.catbox.moe/r20fad.mp3", // Cuu van kip khong
+        "//files.catbox.moe/71gf6e.mp3", // Đánh mất em
+        "//files.catbox.moe/e1r8fu.mp3", // 2AM
+        "//files.catbox.moe/l0y6x5.mp3", // Thời gian sẽ trả lời
+        "//files.catbox.moe/sly2n7.mp3", // Cho em một lần yêu
+        "//files.catbox.moe/l49x11.mp3", // Que boiboi
+        "//thanhdieulua.ml/files/vtd_5.mp3",
+        "//thanhdieulua.ml/files/Hoi-Uc-Ta-Da-Yeu.mp3"
+    ];
+    //Random music
+    let index = Math.floor(Math.random() * dovanhaumedia_List.length);
+    const audio = new Audio(dovanhaumedia_List[index]);
+
+    function dovanhaumediasound__() {
+        audio.play();
+    }
+    document.addEventListener("click", dovanhaumediasound__);
+    audio.addEventListener("ended", function() {
+        index = (index + 1) % dovanhaumedia_List.length;
+        audio.src = dovanhaumedia_List[index];
+        audio.play();
+    });
+</script>
+<script src='https://cdn.jsdelivr.net/npm/sweetalert2@9'></script>
+<script>
+    dovanhaumedia();
+
+    function dovanhaumedia() {
+        Swal.fire(
+            ' Chào Chúc Mừng Đến Web ',
+            ' Dev Nhàng Phạm !',
+            'success'
+        )
+    }
+</script>
+<div class='no-items section' id='dovanhau.media'></div>
+	<!--<head>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+</head>-->
+	<!--<body>
+</body>-->
+	</body>
+	<!-- Kết thúc phần hiển thị -->
+</html>
